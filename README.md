@@ -27,8 +27,8 @@ Ping Pong scoreboard - Processing and Arduino
 - Sick as background ball grafix
 
 ## Things that tripped me up:
-**Shittenhell, I soldered the complete wrong circuit and now I have no working buttons!**\s\s
-Keyboard shortcuts to add points available: Hit A for Player 1, hit S for Player 2
+| **Shittenhell, I soldered the complete wrong circuit and now I have no working buttons!**
+| Keyboard shortcuts to add points available: Hit A for Player 1, hit S for Player 2
 
 **Crap! I gave a point to the wrong player?!**\s\s
 Keyboard shortcuts to deduct points available: Hit Z for Player 1, hit X for Player 2
