@@ -8,6 +8,16 @@ Official supplier of scoreboards to [Common Code](https://github.com/commoncode)
 - 2 x Giant Arcade buttons
 - Processing Controlp5.js library
 
+## Features:
+- Input for 2 x player name and secondary field
+- Flexible number of points per game and number of sets to win
+- In-built "Must win by two" function (Thanks [Myslab](https://github.com/mylsb))
+- Add/minus points per player using keyboard(Player 1: Hit A & Z, Player 2: Hit S & X)
+- Each game writes text inputs and scores to individual text file - data/txt.file
+- Trigger new game UI with yellow box on top left
+- Serial read from Processing to Arduino
+- Sick as background ball grafix
+
 ## Photos:
 - Scoreboard
 ![alt tag](https://raw.github.com/melaniehuang/PingPong/master/images/pong2.jpg)
@@ -18,16 +28,6 @@ Official supplier of scoreboards to [Common Code](https://github.com/commoncode)
 
 - In action
 ![alt tag](https://raw.github.com/melaniehuang/PingPong/master/images/pong4.jpg)
-
-## Features:
-- Input for 2 x player name and secondary field
-- Flexible number of points per game and number of sets to win
-- In-built "Must win by two" function (Thanks [Myslab](https://github.com/mylsb))
-- Add/minus points per player using keyboard(Player 1: Hit A & Z, Player 2: Hit S & X)
-- Each game writes text inputs and scores to individual text file - data/txt.file
-- Trigger new game UI with yellow box on top left
-- Serial read from Processing to Arduino
-- Sick as background ball grafix
 
 ## Things that tripped me up:
 > Shittenhell, I soldered the complete wrong circuit and now I have no working buttons
