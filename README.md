@@ -1,30 +1,30 @@
 # PingPong
-Ping Pong scoreboard in Processing and Arduino
+Ping Pong scoreboard - Processing and Arduino
 
 ## Requires: 
-Arduino UNO
-2 x Giant Arcade buttons
-Processing Controlp5.js library
+- Arduino UNO
+- 2 x Giant Arcade buttons
+- Processing Controlp5.js library
 
 ## Photos:
-1. Scoreboard
+- Scoreboard
 ![alt tag](https://raw.github.com/melaniehuang/PingPong/master/images/pong2.jpg)
 ![alt tag](https://raw.github.com/melaniehuang/PingPong/master/images/pong3.jpg)
 
-2. Buttons
+- Buttons
 ![alt tag](https://raw.github.com/melaniehuang/PingPong/master/images/pong1.jpg)
 
-3. In action
+- In action
 ![alt tag](https://raw.github.com/melaniehuang/PingPong/master/images/pong4.jpg)
 
 ## Features:
-Input for 2 x player name and secondary field
-Flexible number of points per game and number of sets to win
-In-built "Must win by two" function (Thanks @mylsb!)
-Add/minus points per player using keyboard(Player 1: Hit A & Z, Player 2: Hit S & X)
-Each game writes text inputs and scores to individual text file - data/txt.file
-Serial read from Processing to Arduino
-Sick background ball grafix
+- Input for 2 x player name and secondary field
+- Flexible number of points per game and number of sets to win
+- In-built "Must win by two" function (Thanks @mylsb!)
+- Add/minus points per player using keyboard(Player 1: Hit A & Z, Player 2: Hit S & X)
+- Each game writes text inputs and scores to individual text file - data/txt.file
+- Serial read from Processing to Arduino
+- Sick as background ball grafix
 
 ## Things that tripped me up:
 **Shittenhell, I soldered the complete wrong circuit and now I have no working buttons!**
