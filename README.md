@@ -28,7 +28,7 @@ Ping Pong scoreboard - Processing and Arduino
 
 ## Things that tripped me up:
 **Shittenhell, I soldered the complete wrong circuit and now I have no working buttons**
-: Keyboard shortcuts to add points available: Hit A for Player 1, hit S for Player 2
+> Keyboard shortcuts to add points available: Hit A for Player 1, hit S for Player 2
 
 *Crap! I gave a point to the wrong player?!*
 
