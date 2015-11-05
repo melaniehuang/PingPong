@@ -27,14 +27,14 @@ Ping Pong scoreboard - Processing and Arduino
 - Sick as background ball grafix
 
 ## Things that tripped me up:
-*Shittenhell, I soldered the complete wrong circuit and now I have no working buttons!
-Keyboard shortcuts to add points available: Hit A for Player 1, hit S for Player 2
+**Shittenhell, I soldered the complete wrong circuit and now I have no working buttons**
+: Keyboard shortcuts to add points available: Hit A for Player 1, hit S for Player 2
 
 *Crap! I gave a point to the wrong player?!*
 
 Keyboard shortcuts to deduct points available: Hit Z for Player 1, hit X for Player 2
 
-**What on earth is going on? Why aren't things appearing in my text input fields?**\s\s
+**What on earth is going on? Why isn't text appearing in my text input fields?**\s\s
 Controlp5.js isn't friends with Processing 3's new pixelDensity(2) in case you tried to add that in...
 
 **People are flooding into the tournament, why doesn't it work on the Mac Mini and external display?**\s\s
