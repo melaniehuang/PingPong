@@ -1,12 +1,18 @@
+// PING PONG SCOREBOARD
+// Created by Melanie Huang for Common Code Pong Tournament
+
 PFont font;
 
 void setup() {  
   font = createFont("slkscr.ttf", 60,true);
+  //Find correct port Arduino is running off, usually either 0,1 or 2.
   String portName = Serial.list()[1];
   myPort = new Serial(this, portName, 9600);
   
+  //Enable if running on screen
   //size(displayWidth, displayHeight);
-  fullScreen();
+  //Make sure to define correct screen number - this gave me problems on a Mac Mini.
+  fullScreen(1);
   frameRate(60);
   
   cp5 = new ControlP5(this);

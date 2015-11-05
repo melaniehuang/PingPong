@@ -1,10 +1,11 @@
 import processing.serial.*;
 Serial myPort;
 
-//set up a game
+// How many points in a game?
 int pointsWon = 11;
-// First to 4 (Plus one!)
-int bestOf = 0;
+
+// How many games to win a match? 
+int firstTo = 3;
 
 int[] gamesWon = new int[2];
 
@@ -34,12 +35,12 @@ void writeScores(){
   text(score[1], width/2 + ((width/2-50)/2), height/2 +((height-100)/4)-20); 
 
   //games
-  int x1 = width/2 - (gap*(bestOf+1) + gameCircle*(bestOf+1));
-  int x2 = width - (gap*(bestOf+1) + gameCircle*(bestOf+1) + 50);
+  int x1 = width/2 - (gap*(firstTo) + gameCircle*(firstTo));
+  int x2 = width - (gap*(firstTo) + gameCircle*(firstTo) + 50);
 
   int y = height - 50 - (gameCircle + gap);
   
-  for (int i = 0 ; i < bestOf+1; i++){
+  for (int i = 0 ; i < firstTo; i++){
    noFill();
    strokeWeight(1);
    ellipse(x1+(gameCircle*i)+(gap*i),y,gameCircle,gameCircle);
@@ -50,10 +51,10 @@ void writeScores(){
     if (winByTwo(score[0], score[1])) {
       int winner = findWinner(score);
       output.println(score[0] + ", "+ score[1]);  
-      if (gamesWon[winner] < bestOf) {
+      if (gamesWon[winner] < firstTo - 1) {
         gamesWon[winner]++;
         score = new int[2];
-      } else if (gamesWon[winner] == bestOf) {
+      } else if (gamesWon[winner] == firstTo - 1) {
         gamesWon[winner]++;
         endGame();
       }
