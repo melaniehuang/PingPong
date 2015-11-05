@@ -23,6 +23,7 @@ Ping Pong scoreboard - Processing and Arduino
 - In-built "Must win by two" function (Thanks @mylsb!)
 - Add/minus points per player using keyboard(Player 1: Hit A & Z, Player 2: Hit S & X)
 - Each game writes text inputs and scores to individual text file - data/txt.file
+- Trigger new game UI with yellow box on top left
 - Serial read from Processing to Arduino
 - Sick as background ball grafix
 
